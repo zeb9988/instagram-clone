@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "164316109129",
+    "project_id": "socail-app-7071f",
+    "storage_bucket": "socail-app-7071f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164316109129:android:ad999d1205a77779b4e298",
+        "android_client_info": {
+          "package_name": "com.example.insta_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD30v47Xq5RtJHzCjWSUE8VuwFPE8kDKEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
