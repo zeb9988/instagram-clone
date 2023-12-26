@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:insta_flutter/screens/signup.dart';
 import 'package:insta_flutter/utils/color.dart';
 import 'package:insta_flutter/utils/dimension.dart';
 import 'package:insta_flutter/widgets/textfeild.dart';
@@ -105,11 +106,11 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ),
                   GestureDetector(
-                    // onTap: () => Navigator.of(context).push(
-                    //   MaterialPageRoute(
-                    //     builder: (context) => const SignupScreen(),
-                    //   ),
-                    // ),
+                    onTap: () => Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (context) => const SignupScreen(),
+                      ),
+                    ),
                     child: Container(
                       padding: const EdgeInsets.symmetric(vertical: 8),
                       child: const Text(
